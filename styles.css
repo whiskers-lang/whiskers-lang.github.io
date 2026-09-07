@@ -145,7 +145,7 @@ h1 { margin: 26px 0 0; font: 500 clamp(76px, 8.2vw, 124px)/.82 var(--serif); let
 .feature-panels p code { color: var(--glass); font-size: .82em; }
 .feature-panels pre { min-width: 0; margin: 0; padding: 28px; overflow-x: auto; border: 1px solid var(--line); background: #191715; font: 400 clamp(10px, .9vw, 12px)/1.9 var(--mono); }
 
-.more-features { display: grid; grid-template-columns: repeat(2, 1fr); background: var(--bg-deep); border-bottom: 1px solid var(--line); padding: 0 max(clamp(24px, 5vw, 76px), calc((100vw - 1440px) / 2 + 76px)) clamp(82px, 10vw, 148px); }
+.more-features { display: grid; grid-template-columns: repeat(3, 1fr); background: var(--bg-deep); border-bottom: 1px solid var(--line); padding: 0 max(clamp(24px, 5vw, 76px), calc((100vw - 1440px) / 2 + 76px)) clamp(82px, 10vw, 148px); }
 .more-features article { min-width: 0; padding: 38px clamp(20px, 3vw, 44px); border-left: 1px solid var(--line); }
 .more-features article:last-child { border-right: 1px solid var(--line); }
 .feature-glyph { width: 40px; height: 40px; display: grid; place-items: center; color: var(--ember); border: 1px solid var(--line); font: 400 17px/1 var(--mono); }
