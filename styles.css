@@ -139,7 +139,7 @@ h1 { margin: 26px 0 0; font: 500 clamp(76px, 8.2vw, 124px)/.82 var(--serif); let
 .feature-tabs small { display: block; margin-top: 6px; color: var(--faint); font: 400 10px/1.4 var(--mono); }
 .feature-panels { min-width: 0; background: var(--panel); }
 .feature-panels article { min-height: 383px; display: grid; grid-template-columns: .8fr 1.2fr; align-items: center; gap: clamp(30px, 5vw, 76px); padding: clamp(32px, 5vw, 68px); }
-.feature-panels article[hidden] { display: none; }
+.feature-panels article[hidden] { display: none !important; }
 .feature-panels h3 { margin: 14px 0 14px; font: 500 clamp(29px, 3vw, 42px)/1.05 var(--serif); }
 .feature-panels p:not(.mini-label) { margin: 0; color: var(--muted); font-size: 16px; }
 .feature-panels p code { color: var(--glass); font-size: .82em; }
